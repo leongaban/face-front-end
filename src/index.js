@@ -1,14 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+
 import App from './App';
+import videoBg from './assets/face-background.mp4'
+import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+ReactDOM.createRoot(document.getElementById('root')).render(
+<div>
+  <App />
+  <div className='hero'>
+    <div className='content'>
+      <h1>FACE RECOGNITION BRAIN<em>TM</em></h1>
+    </div>
+    <video src={videoBg} autoPlay loop muted/>
+    {/* <video autoPlay loop muted plays-inline="true" className="back-video">
+      <source src="assets/face-background.mp4" type="video/mp4"/>
+    </video> */}
+  </div>
+</div>
 );
 
 // If you want to start measuring performance in your app, pass a function

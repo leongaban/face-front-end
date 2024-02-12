@@ -1,0 +1,16 @@
+.tilt {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  border-radius: 2px;
+  z-index: 10;
+  /* background: grey; */
+  background: radial-gradient(#e66465, #9198e5);
+  box-shadow: 2px 15px 15px rgba(0, 0, 0, 0.2);
+}
+
+.tilt-inner img {
+  margin-top: 1.3rem;
+  width: 200px;
+  height: 200px;
+}

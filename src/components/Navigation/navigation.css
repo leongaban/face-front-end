@@ -1,0 +1,9 @@
+.sign-out {
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.sign-out:hover {
+    text-decoration: underline;
+}
