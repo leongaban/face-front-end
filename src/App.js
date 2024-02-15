@@ -17,6 +17,10 @@ import './App.css'
 //   apiKey: 'YOUR API KEY HERE',
 // })
 
+const onImageSubmit = imageUrl => {
+  console.log('onImageSubmit called with imageUrl:', imageUrl)
+}
+
 function App() {
   return (
     <div className="App">
@@ -24,7 +28,7 @@ function App() {
       <Navigation />
       <Logo />
       <div className="app-content">
-        <ImageLinkForm />
+        <ImageLinkForm onSubmit={onImageSubmit} />
         {/* 
         
         <FaceRecognition /> */}

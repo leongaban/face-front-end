@@ -6,13 +6,18 @@ import videoBg from './assets/face-background.mp4'
 import './index.css'
 import reportWebVitals from './reportWebVitals'
 
-console.log('window', window)
-
 let process = {}
 
-console.log('process', process)
-// if (process.env.NODE_ENV !== 'production') {
-// }
+// Your PAT (Personal Access Token) can be found in the portal under Authentification
+const PAT = 'YOUR_PAT_HERE'
+// Specify the correct user_id/app_id pairings
+// Since you're making inferences outside your app's scope
+const USER_ID = 'clarifai'
+const APP_ID = 'main'
+// Change these to whatever model and image URL you want to use
+const MODEL_ID = 'general-image-recognition'
+const MODEL_VERSION_ID = 'aa7f35c01e0642fda5cf400f543e7c40'
+const IMAGE_URL = 'https://samples.clarifai.com/metro-north.jpg'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <div>
