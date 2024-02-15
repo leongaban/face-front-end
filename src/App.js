@@ -46,6 +46,12 @@ function App() {
     }
   }
 
+  // useEffect(() => {
+  //   fetch('http://localhost:3001')
+  //     .then(res => res.json())
+  //     .then(console.log)
+  // }, [])
+
   useEffect(() => {
     if (box) {
       const result = calculateFaceLocation(box)
