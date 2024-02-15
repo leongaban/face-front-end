@@ -1,3 +1,11 @@
+.mtop-neg400 {
+  margin-top: -400px;
+}
+
+.w500 {
+  width: 500px;
+}
+
 .bounding-box {
   position: absolute;
   box-shadow: 0 0 0 3px #149df2 inset;

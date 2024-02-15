@@ -1,7 +1,7 @@
 import React from 'react'
 import { Tilt } from 'react-tilt'
 import './Logo.css'
-import brainLogo from './brain-logo.png'
+import faceLogo from './face-logo.png'
 
 const defaultOptions = {
   reverse: false, // reverse the tilt direction
@@ -24,7 +24,7 @@ const Logo = () => {
         style={{ height: 250, width: 250 }}
       >
         <div className="tilt-inner">
-          <img src={brainLogo} alt="Face Recognition Brain" />
+          <img src={faceLogo} alt="Face Recognition Brain" />
         </div>
       </Tilt>
     </div>
