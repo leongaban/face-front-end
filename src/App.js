@@ -6,19 +6,17 @@ import Logo from './components/Logo/Logo'
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm'
 import './App.css'
 
+import fetchFaceDection from './services/faceDetection'
+
 // https://github.com/Clarifai/clarifai-nodejs-grpc
 // https://clarifai.com/clarifai/main/models/face-detection
 // https://github.com/aneagoie/face-recognition-brain/blob/master/src/App.js
 
 // Set NodeJS default version: https://www.bairesdev.com/blog/change-node-version/
 
-//You must add your own API key here from Clarifai.
-// const app = new Clarifai.App({
-//   apiKey: 'YOUR API KEY HERE',
-// })
-
 const onImageSubmit = imageUrl => {
   console.log('onImageSubmit called with imageUrl:', imageUrl)
+  fetchFaceDection(imageUrl)
 }
 
 function App() {

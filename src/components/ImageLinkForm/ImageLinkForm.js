@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './imageLinkForm.css'
+import './ImageLinkForm.css'
 
 const ImageLinkForm = props => {
   const { onSubmit } = props
