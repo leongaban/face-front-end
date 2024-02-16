@@ -8,7 +8,6 @@ import {
 } from '../constants/clarifai'
 
 const fetchFaceDetection = IMAGE_URL => {
-  console.log('fetchFaceDetection called with', IMAGE_URL)
   const raw = JSON.stringify({
     user_app_id: {
       user_id: USER_ID,
