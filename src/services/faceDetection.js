@@ -46,8 +46,6 @@ const fetchFaceDetection = IMAGE_URL => {
       .then(response => response.json())
       .then(result => {
         const regions = result.outputs[0].data.regions
-        console.log('regions', regions)
-        console.log(' ')
 
         regions.forEach(region => {
           const boundingBox = region.region_info.bounding_box

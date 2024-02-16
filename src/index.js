@@ -16,7 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <div className="hero">
       <div className="content">
         <h1>
-          FACE RECOGNITION BRAIN<em>TM</em>
+          FACE RECOGNITION APP<em>TM</em>
         </h1>
         <p className="app-info">
           This App uses the generative AI by{' '}
