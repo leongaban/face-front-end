@@ -46,10 +46,19 @@ function App() {
     }
   }
 
+  // Connect to Face Server
   // useEffect(() => {
-  //   fetch('http://localhost:3001')
-  //     .then(res => res.json())
-  //     .then(console.log)
+  //   console.log('fetch server')
+  //   const fetchData = async () => {
+  //     const res = await fetch('http://localhost:3001')
+  //     const data = await res.json()
+  //     console.log(data)
+  //     return data
+  //   }
+
+  //   fetchData()
+  //     .then(res => console.log(res))
+  //     .catch(error => console.error('Error fetching data:', error))
   // }, [])
 
   useEffect(() => {

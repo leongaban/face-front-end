@@ -5,7 +5,7 @@ import './Navigation.css'
 function Navigation() {
   return (
     <nav style={{ display: 'flex', justifyContent: 'flex-end' }}>
-      <p className="sign-out">Sign Out</p>
+      {/* <p className="sign-out">Sign Out</p> */}
     </nav>
   )
 }
